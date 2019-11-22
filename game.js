@@ -65,7 +65,7 @@ var monsterImage2 = new Image();
 monsterImage2.onload = function () {
 	monsterReady2 = true;
 };
-monsterImage2.src = "images/monster2.gif";
+monsterImage2.src = "images/monster2.png";
 
 // 载入怪兽图像3
 var monsterReady3 = false;
@@ -187,7 +187,7 @@ var update = function (modifier) {
 	
 	if(monstersCaught*100+monstersCaught2*500+monstersCaught3*200>1500)
 	{
-                alert("闯关成功");
+              
 		bgReady=false;
 		bgReady2 = true;
              
